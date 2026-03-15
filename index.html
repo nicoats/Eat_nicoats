@@ -74,11 +74,7 @@ footer{background:#222;color:#ddd;text-align:center;padding:30px;margin-top:60px
 </div>
 
 <div style="margin-top:25px">
-<h3 style="margin-bottom:10px">Batch Status</h3>
-<div style="background:#e6ddd4;border-radius:10px;height:22px;overflow:hidden;max-width:420px;margin:auto">
-<div id="oatBar" style="background:#8b5e3c;height:100%;width:0%"></div>
-</div>
-<p id="oatCount" style="margin-top:10px;font-weight:600">0 / 50 oats claimed</p>
+
 </div>
 </div>
 </section>
@@ -251,16 +247,6 @@ setInterval(updateCountdown,1000);
 updateCountdown();
 
 
-// demo batch counter (edit the number below each week)
-const claimedOats = 32; // change this number each week
-const totalOats = 50;
-
-const percent = (claimedOats/totalOats)*100;
-const bar = document.getElementById('oatBar');
-const count = document.getElementById('oatCount');
-
-if(bar){bar.style.width = percent + '%';}
-if(count){count.innerHTML = `${claimedOats} / ${totalOats} oats claimed`;}
 
 </script>
 
