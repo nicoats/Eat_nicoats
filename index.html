@@ -72,6 +72,14 @@ footer{background:#222;color:#ddd;text-align:center;padding:30px;margin-top:60px
 <p>⏳ Orders Close: Friday at 12:00 PM</p>
 <p>🥣 Pickup Day: Sunday</p>
 </div>
+
+<div style="margin-top:25px">
+<h3 style="margin-bottom:10px">Batch Status</h3>
+<div style="background:#e6ddd4;border-radius:10px;height:22px;overflow:hidden;max-width:420px;margin:auto">
+<div id="oatBar" style="background:#8b5e3c;height:100%;width:0%"></div>
+</div>
+<p id="oatCount" style="margin-top:10px;font-weight:600">0 / 50 oats claimed</p>
+</div>
 </div>
 </section>
 
@@ -96,16 +104,20 @@ footer{background:#222;color:#ddd;text-align:center;padding:30px;margin-top:60px
 <h2 class="section-title">Pricing</h2>
 
 <div class="pricing">
-<p>Pricing varies depending on how many oats are ordered.</p>
-<p>Bundles are listed each week in the order form.</p>
+<p><strong>Regular Oats</strong></p>
+<p>2 for $14</p>
+<p>4 for $27</p>
+<p>6 for $39 – Best Value ⭐</p>
 
-<p><strong>Regular Oats Pricing</strong> and <strong>Gluten Free Oats Pricing</strong> are different.</p>
+<br>
 
-<p>Example pricing:</p>
-<p>Regular: 2 for $16</p>
-<p>Gluten Free: priced slightly higher depending on quantity.</p>
+<p><strong>Gluten Free Oats (GF)</strong></p>
+<p>2 for $16 (GF)</p>
+<p>4 for $31 (GF)</p>
+<p>6 for $45 (GF) – Best Value ⭐</p>
 
-<p>Final pricing and bundle options are shown when the weekly order form opens.</p>
+<br>
+<p>Bundles are selected when the weekly order form opens.</p>
 </div>
 </section>
 
@@ -130,11 +142,11 @@ footer{background:#222;color:#ddd;text-align:center;padding:30px;margin-top:60px
 <h2 class="section-title">Inside the Kitchen</h2>
 
 <div class="gallery">
-<img src="oats1.jpg">
-<img src="oats2.jpg">
-<img src="oats3.jpg">
-<img src="oats4.jpg">
-<img src="oats5.jpg">
+<a href="oats1.jpg" target="_blank"><img src="oats1.jpg" alt="Nic Oats"></a>
+<a href="oats2.jpg" target="_blank"><img src="oats2.jpg" alt="Nic Oats"></a>
+<a href="oats3.jpg" target="_blank"><img src="oats3.jpg" alt="Nic Oats"></a>
+<a href="oats4.jpg" target="_blank"><img src="oats4.jpg" alt="Nic Oats"></a>
+<a href="oats5.jpg" target="_blank"><img src="oats5.jpg" alt="Nic Oats"></a>
 </div>
 </section>
 
@@ -161,17 +173,42 @@ footer{background:#222;color:#ddd;text-align:center;padding:30px;margin-top:60px
 <strong>Sydney</strong>
 </div>
 
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"These are the best overnight oats I've ever had."</p>
+<strong>Leah</strong>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"The homemade granola is unreal."</p>
+<strong>Mike</strong>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"I literally wait for the Tuesday drop every week."</p>
+<strong>Jess</strong>
+</div>
+
 </div>
 </section>
 
 <section id="instagram" style="text-align:center">
-<h2 class="section-title">Follow Nic Oats on Instagram</h2>
-<p class="section-sub">See weekly drops and fresh batches</p>
+<h2 class="section-title">Nic Oats on Instagram</h2>
+<p class="section-sub">Follow @eat_nicoats for weekly drops</p>
 
-<a href="https://instagram.com/nicoats" target="_blank" style="background:#ff914d;color:white;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600">Visit Instagram</a>
+<a href="https://instagram.com/eat_nicoats" target="_blank" style="background:#ff914d;color:white;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600">Open Instagram</a>
 
-<div style="margin-top:25px">
-<iframe src="https://www.instagram.com/nicoats/embed" width="340" height="500" style="border:none;border-radius:10px"></iframe>
+<div style="margin-top:35px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:900px;margin-left:auto;margin-right:auto">
+
+<a href="https://www.instagram.com/eat_nicoats/" target="_blank"><img src="https://images.unsplash.com/photo-1512058564366-c9e3e046c1c0" style="width:100%;border-radius:12px"></a>
+<a href="https://www.instagram.com/eat_nicoats/" target="_blank"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061" style="width:100%;border-radius:12px"></a>
+<a href="https://www.instagram.com/eat_nicoats/" target="_blank"><img src="https://images.unsplash.com/photo-1505253210343-1c4c32c7a7ea" style="width:100%;border-radius:12px"></a>
+<a href="https://www.instagram.com/eat_nicoats/" target="_blank"><img src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9" style="width:100%;border-radius:12px"></a>
+<a href="https://www.instagram.com/eat_nicoats/" target="_blank"><img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f" style="width:100%;border-radius:12px"></a>
+<a href="https://www.instagram.com/eat_nicoats/" target="_blank"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" style="width:100%;border-radius:12px"></a>
+
 </div>
 </section>
 
@@ -212,6 +249,19 @@ if(el){el.innerHTML=`${days}d ${hours}h ${minutes}m`;}
 
 setInterval(updateCountdown,1000);
 updateCountdown();
+
+
+// demo batch counter (edit the number below each week)
+const claimedOats = 32; // change this number each week
+const totalOats = 50;
+
+const percent = (claimedOats/totalOats)*100;
+const bar = document.getElementById('oatBar');
+const count = document.getElementById('oatCount');
+
+if(bar){bar.style.width = percent + '%';}
+if(count){count.innerHTML = `${claimedOats} / ${totalOats} oats claimed`;}
+
 </script>
 
 </body>
